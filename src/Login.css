@@ -1,0 +1,30 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.login > button {
+  width: 300px;
+  background-color: #383838;
+  color: #eff2f5;
+  font-weight: 800;
+}
+
+.login > button:hover {
+  background-color: white;
+  color: black;
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 150px;
+}
+.login > div {
+  display: flex;
+  flex-direction: column;
+}
+.login > div > center {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
